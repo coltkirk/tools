@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Enter name for zip & run lOve2d?"
+
+read varname
+
+zip -9 -r $varname.love .
+
+love $varname.love &
+
+exit 1
