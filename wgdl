@@ -1,0 +1,4 @@
+#!/bin/bash
+
+wget -r -l1 --no-parent --accept=mid http://www.lufiaworld.com/46/music.php
+
