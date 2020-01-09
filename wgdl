@@ -1,4 +1,5 @@
 #!/bin/bash
 
-wget -r -l1 --no-parent --accept=mid http://www.lufiaworld.com/46/music.php
+wget -r -l1 --no-parent --accept=filetype website
 
+# TODO: read and $varname the file/website to avoid frequent editing
