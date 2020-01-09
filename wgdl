@@ -1,5 +1,26 @@
 #!/bin/bash
 
-wget -r -l1 --no-parent --accept=filetype website
+echo "What kinda file?"
+read varf
+echo "And the website?"
+read varw
 
-# TODO: read and $varname the file/website to avoid frequent editing
+wget -r -1 --no-parent --accept=$varf $varw
+
+#  _______________
+# |@@@@|     |####|
+# |@@@@|     |####|
+# |@@@@|     |####|
+# \@@@@|     |####/
+#  \@@@|     |###/
+#   `@@|_____|##'
+#        (O)
+#     .-'''''-.
+#   .'  * * *  `.
+#  :  *       *  :
+# :  ~~~~Colt~~~~~:
+# :  ~~~~KIRK~~~~~:
+#  :  *       *  :
+#   `.  * * *  .'
+#     `-.....-'
+#
