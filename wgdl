@@ -5,7 +5,7 @@ read varf
 echo "And the website?"
 read varw
 
-wget -r -1 --no-parent --accept=$varf $varw
+wget -r -l --no-parent --accept=$varf $varw
 
 #  _______________
 # |@@@@|     |####|
