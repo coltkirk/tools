@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "URL"
+read url
+youtube-dl -x --audio-format mp3 $url
+exit 1
