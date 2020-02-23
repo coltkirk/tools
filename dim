@@ -3,5 +3,3 @@
 echo "Brightness level 0.1 - 1.0"
 read varDim
 xrandr --output eDP-1 --brightness $varDim
-
-
