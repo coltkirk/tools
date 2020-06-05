@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "Search package manager for a term"
-read varSearch
-echo "---------------------"
-apt-cache pkgnames $varSearch
